@@ -1,0 +1,29 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "YelpCamp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoitaEduard/YelpCamp.git"
+  },
+  "keywords": [
+    "webBootcamp"
+  ],
+  "author": "Joita Eduard/Colt Steele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoitaEduard/YelpCamp/issues"
+  },
+  "homepage": "https://github.com/JoitaEduard/YelpCamp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.3",
+    "path": "^0.12.7"
+  }
+}
