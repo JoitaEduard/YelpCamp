@@ -23,8 +23,6 @@
                     <% } %>
             </div>
 
-            <div id='map'></div>
-
             <div class="card mb-3">
                 <!-- <% for(let img of campground.images) { %>
                         <img src="<%=img.url%>" alt="" class="card-img-top">
@@ -63,6 +61,8 @@
         </div>
         <% if(currentUser) { %>
             <div class="col-6">
+
+                <div id='map'></div>
 
                 <h2>Leave a review</h2>
                 <form action="/campgrounds/<%= campground._id%>/reviews" class="mb-3 validated-form" method="POST"
